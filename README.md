@@ -1,2 +1,2 @@
 # BMS5022_S2-2021
-Advanced Bioinformatics
+Monash University, Semester 2 (2021) : Advanced Bioinformatics
