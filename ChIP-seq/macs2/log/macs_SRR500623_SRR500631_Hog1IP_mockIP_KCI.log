@@ -1,0 +1,74 @@
+INFO  @ Thu, 23 Sep 2021 01:18:52: 
+# Command line: callpeak -t SRR500623_S288C_aln.bam -c SRR500631_S288C_aln.bam -f BAM -g 1.3e+8 --outdir macs2 -n macs_SRR500623_SRR500631_Hog1IP_mockIP_KCI
+# ARGUMENTS LIST:
+# name = macs_SRR500623_SRR500631_Hog1IP_mockIP_KCI
+# format = BAM
+# ChIP-seq file = ['SRR500623_S288C_aln.bam']
+# control file = ['SRR500631_S288C_aln.bam']
+# effective genome size = 1.30e+08
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+# Paired-End mode is off
+ 
+INFO  @ Thu, 23 Sep 2021 01:18:52: #1 read tag files... 
+INFO  @ Thu, 23 Sep 2021 01:18:52: #1 read treatment tags... 
+INFO  @ Thu, 23 Sep 2021 01:18:54:  1000000 
+INFO  @ Thu, 23 Sep 2021 01:18:56:  2000000 
+INFO  @ Thu, 23 Sep 2021 01:18:58:  3000000 
+INFO  @ Thu, 23 Sep 2021 01:19:00:  4000000 
+INFO  @ Thu, 23 Sep 2021 01:19:02:  5000000 
+INFO  @ Thu, 23 Sep 2021 01:19:04:  6000000 
+INFO  @ Thu, 23 Sep 2021 01:19:05:  7000000 
+INFO  @ Thu, 23 Sep 2021 01:19:07:  8000000 
+INFO  @ Thu, 23 Sep 2021 01:19:09:  9000000 
+INFO  @ Thu, 23 Sep 2021 01:19:11: 9938832 reads have been read. 
+INFO  @ Thu, 23 Sep 2021 01:19:11: #1.2 read input tags... 
+INFO  @ Thu, 23 Sep 2021 01:19:13:  1000000 
+INFO  @ Thu, 23 Sep 2021 01:19:15:  2000000 
+INFO  @ Thu, 23 Sep 2021 01:19:17:  3000000 
+INFO  @ Thu, 23 Sep 2021 01:19:19:  4000000 
+INFO  @ Thu, 23 Sep 2021 01:19:20:  5000000 
+INFO  @ Thu, 23 Sep 2021 01:19:22:  6000000 
+INFO  @ Thu, 23 Sep 2021 01:19:24:  7000000 
+INFO  @ Thu, 23 Sep 2021 01:19:26:  8000000 
+INFO  @ Thu, 23 Sep 2021 01:19:28:  9000000 
+INFO  @ Thu, 23 Sep 2021 01:19:30:  10000000 
+INFO  @ Thu, 23 Sep 2021 01:19:32:  11000000 
+INFO  @ Thu, 23 Sep 2021 01:19:34:  12000000 
+INFO  @ Thu, 23 Sep 2021 01:19:34: 12324900 reads have been read. 
+INFO  @ Thu, 23 Sep 2021 01:19:34: #1 tag size is determined as 32 bps 
+INFO  @ Thu, 23 Sep 2021 01:19:34: #1 tag size = 32.0 
+INFO  @ Thu, 23 Sep 2021 01:19:34: #1  total tags in treatment: 9938832 
+INFO  @ Thu, 23 Sep 2021 01:19:34: #1 user defined the maximum tags... 
+INFO  @ Thu, 23 Sep 2021 01:19:34: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Thu, 23 Sep 2021 01:19:34: #1  tags after filtering in treatment: 4481736 
+INFO  @ Thu, 23 Sep 2021 01:19:34: #1  Redundant rate of treatment: 0.55 
+INFO  @ Thu, 23 Sep 2021 01:19:34: #1  total tags in control: 12324900 
+INFO  @ Thu, 23 Sep 2021 01:19:34: #1 user defined the maximum tags... 
+INFO  @ Thu, 23 Sep 2021 01:19:34: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Thu, 23 Sep 2021 01:19:35: #1  tags after filtering in control: 4909788 
+INFO  @ Thu, 23 Sep 2021 01:19:35: #1  Redundant rate of control: 0.60 
+INFO  @ Thu, 23 Sep 2021 01:19:35: #1 finished! 
+INFO  @ Thu, 23 Sep 2021 01:19:35: #2 Build Peak Model... 
+INFO  @ Thu, 23 Sep 2021 01:19:35: #2 looking for paired plus/minus strand peaks... 
+INFO  @ Thu, 23 Sep 2021 01:19:36: #2 number of paired peaks: 18760 
+INFO  @ Thu, 23 Sep 2021 01:19:36: start model_add_line... 
+INFO  @ Thu, 23 Sep 2021 01:19:37: start X-correlation... 
+INFO  @ Thu, 23 Sep 2021 01:19:37: end of X-cor 
+INFO  @ Thu, 23 Sep 2021 01:19:37: #2 finished! 
+INFO  @ Thu, 23 Sep 2021 01:19:37: #2 predicted fragment length is 196 bps 
+INFO  @ Thu, 23 Sep 2021 01:19:37: #2 alternative fragment length(s) may be 182,196 bps 
+INFO  @ Thu, 23 Sep 2021 01:19:37: #2.2 Generate R script for model : macs2/macs_SRR500623_SRR500631_Hog1IP_mockIP_KCI_model.r 
+INFO  @ Thu, 23 Sep 2021 01:19:37: #3 Call peaks... 
+INFO  @ Thu, 23 Sep 2021 01:19:37: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Thu, 23 Sep 2021 01:19:54: #3 Call peaks for each chromosome... 
+INFO  @ Thu, 23 Sep 2021 01:20:00: #4 Write output xls file... macs2/macs_SRR500623_SRR500631_Hog1IP_mockIP_KCI_peaks.xls 
+INFO  @ Thu, 23 Sep 2021 01:20:00: #4 Write peak in narrowPeak format file... macs2/macs_SRR500623_SRR500631_Hog1IP_mockIP_KCI_peaks.narrowPeak 
+INFO  @ Thu, 23 Sep 2021 01:20:00: #4 Write summits bed file... macs2/macs_SRR500623_SRR500631_Hog1IP_mockIP_KCI_summits.bed 
+INFO  @ Thu, 23 Sep 2021 01:20:00: Done! 

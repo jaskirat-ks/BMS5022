@@ -1,0 +1,70 @@
+INFO  @ Sat, 25 Sep 2021 03:12:29: 
+# Command line: callpeak -t SRR500622_S288C_aln.bam -c SRR500630_S288C_aln.bam -f BAM -g 1.3e+8 --outdir macs2 -n macs_SRR500622_SRR500630_Hog1IP_mockIP_YEPD
+# ARGUMENTS LIST:
+# name = macs_SRR500622_SRR500630_Hog1IP_mockIP_YEPD
+# format = BAM
+# ChIP-seq file = ['SRR500622_S288C_aln.bam']
+# control file = ['SRR500630_S288C_aln.bam']
+# effective genome size = 1.30e+08
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+# Paired-End mode is off
+ 
+INFO  @ Sat, 25 Sep 2021 03:12:29: #1 read tag files... 
+INFO  @ Sat, 25 Sep 2021 03:12:29: #1 read treatment tags... 
+INFO  @ Sat, 25 Sep 2021 03:12:31:  1000000 
+INFO  @ Sat, 25 Sep 2021 03:12:32:  2000000 
+INFO  @ Sat, 25 Sep 2021 03:12:34:  3000000 
+INFO  @ Sat, 25 Sep 2021 03:12:36:  4000000 
+INFO  @ Sat, 25 Sep 2021 03:12:37:  5000000 
+INFO  @ Sat, 25 Sep 2021 03:12:39:  6000000 
+INFO  @ Sat, 25 Sep 2021 03:12:41:  7000000 
+INFO  @ Sat, 25 Sep 2021 03:12:42:  8000000 
+INFO  @ Sat, 25 Sep 2021 03:12:44:  9000000 
+INFO  @ Sat, 25 Sep 2021 03:12:45:  10000000 
+INFO  @ Sat, 25 Sep 2021 03:12:47:  11000000 
+INFO  @ Sat, 25 Sep 2021 03:12:48: 11322972 reads have been read. 
+INFO  @ Sat, 25 Sep 2021 03:12:48: #1.2 read input tags... 
+INFO  @ Sat, 25 Sep 2021 03:12:50:  1000000 
+INFO  @ Sat, 25 Sep 2021 03:12:51:  2000000 
+INFO  @ Sat, 25 Sep 2021 03:12:53:  3000000 
+INFO  @ Sat, 25 Sep 2021 03:12:55:  4000000 
+INFO  @ Sat, 25 Sep 2021 03:12:57:  5000000 
+INFO  @ Sat, 25 Sep 2021 03:12:59:  6000000 
+INFO  @ Sat, 25 Sep 2021 03:13:00: 6618931 reads have been read. 
+INFO  @ Sat, 25 Sep 2021 03:13:00: #1 tag size is determined as 32 bps 
+INFO  @ Sat, 25 Sep 2021 03:13:00: #1 tag size = 32.0 
+INFO  @ Sat, 25 Sep 2021 03:13:00: #1  total tags in treatment: 11322972 
+INFO  @ Sat, 25 Sep 2021 03:13:00: #1 user defined the maximum tags... 
+INFO  @ Sat, 25 Sep 2021 03:13:00: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 25 Sep 2021 03:13:00: #1  tags after filtering in treatment: 6633896 
+INFO  @ Sat, 25 Sep 2021 03:13:00: #1  Redundant rate of treatment: 0.41 
+INFO  @ Sat, 25 Sep 2021 03:13:00: #1  total tags in control: 6618931 
+INFO  @ Sat, 25 Sep 2021 03:13:00: #1 user defined the maximum tags... 
+INFO  @ Sat, 25 Sep 2021 03:13:00: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 25 Sep 2021 03:13:00: #1  tags after filtering in control: 2933099 
+INFO  @ Sat, 25 Sep 2021 03:13:00: #1  Redundant rate of control: 0.56 
+INFO  @ Sat, 25 Sep 2021 03:13:00: #1 finished! 
+INFO  @ Sat, 25 Sep 2021 03:13:00: #2 Build Peak Model... 
+INFO  @ Sat, 25 Sep 2021 03:13:00: #2 looking for paired plus/minus strand peaks... 
+INFO  @ Sat, 25 Sep 2021 03:13:02: #2 number of paired peaks: 18767 
+INFO  @ Sat, 25 Sep 2021 03:13:02: start model_add_line... 
+INFO  @ Sat, 25 Sep 2021 03:13:04: start X-correlation... 
+INFO  @ Sat, 25 Sep 2021 03:13:04: end of X-cor 
+INFO  @ Sat, 25 Sep 2021 03:13:04: #2 finished! 
+INFO  @ Sat, 25 Sep 2021 03:13:04: #2 predicted fragment length is 185 bps 
+INFO  @ Sat, 25 Sep 2021 03:13:04: #2 alternative fragment length(s) may be 185 bps 
+INFO  @ Sat, 25 Sep 2021 03:13:04: #2.2 Generate R script for model : macs2/macs_SRR500622_SRR500630_Hog1IP_mockIP_YEPD_model.r 
+INFO  @ Sat, 25 Sep 2021 03:13:04: #3 Call peaks... 
+INFO  @ Sat, 25 Sep 2021 03:13:04: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sat, 25 Sep 2021 03:13:15: #3 Call peaks for each chromosome... 
+INFO  @ Sat, 25 Sep 2021 03:13:19: #4 Write output xls file... macs2/macs_SRR500622_SRR500630_Hog1IP_mockIP_YEPD_peaks.xls 
+INFO  @ Sat, 25 Sep 2021 03:13:19: #4 Write peak in narrowPeak format file... macs2/macs_SRR500622_SRR500630_Hog1IP_mockIP_YEPD_peaks.narrowPeak 
+INFO  @ Sat, 25 Sep 2021 03:13:19: #4 Write summits bed file... macs2/macs_SRR500622_SRR500630_Hog1IP_mockIP_YEPD_summits.bed 
+INFO  @ Sat, 25 Sep 2021 03:13:19: Done! 

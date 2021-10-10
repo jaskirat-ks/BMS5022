@@ -1,0 +1,95 @@
+INFO  @ Thu, 23 Sep 2021 01:21:53: 
+# Command line: callpeak -t SRR500628_S288C_aln.bam -c SRR500630_S288C_aln.bam -f BAM -g 1.3e+8 --outdir macs2 -n macs_SRR500628_SRR500630_Hot1IP_mockIP_YEPD
+# ARGUMENTS LIST:
+# name = macs_SRR500628_SRR500630_Hot1IP_mockIP_YEPD
+# format = BAM
+# ChIP-seq file = ['SRR500628_S288C_aln.bam']
+# control file = ['SRR500630_S288C_aln.bam']
+# effective genome size = 1.30e+08
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+# Paired-End mode is off
+ 
+INFO  @ Thu, 23 Sep 2021 01:21:53: #1 read tag files... 
+INFO  @ Thu, 23 Sep 2021 01:21:53: #1 read treatment tags... 
+INFO  @ Thu, 23 Sep 2021 01:21:55:  1000000 
+INFO  @ Thu, 23 Sep 2021 01:21:58:  2000000 
+INFO  @ Thu, 23 Sep 2021 01:22:00:  3000000 
+INFO  @ Thu, 23 Sep 2021 01:22:03:  4000000 
+INFO  @ Thu, 23 Sep 2021 01:22:05:  5000000 
+INFO  @ Thu, 23 Sep 2021 01:22:08:  6000000 
+INFO  @ Thu, 23 Sep 2021 01:22:10:  7000000 
+INFO  @ Thu, 23 Sep 2021 01:22:13:  8000000 
+INFO  @ Thu, 23 Sep 2021 01:22:15:  9000000 
+INFO  @ Thu, 23 Sep 2021 01:22:18:  10000000 
+INFO  @ Thu, 23 Sep 2021 01:22:20:  11000000 
+INFO  @ Thu, 23 Sep 2021 01:22:23:  12000000 
+INFO  @ Thu, 23 Sep 2021 01:22:25:  13000000 
+INFO  @ Thu, 23 Sep 2021 01:22:28:  14000000 
+INFO  @ Thu, 23 Sep 2021 01:22:31:  15000000 
+INFO  @ Thu, 23 Sep 2021 01:22:33:  16000000 
+INFO  @ Thu, 23 Sep 2021 01:22:36:  17000000 
+INFO  @ Thu, 23 Sep 2021 01:22:38:  18000000 
+INFO  @ Thu, 23 Sep 2021 01:22:41:  19000000 
+INFO  @ Thu, 23 Sep 2021 01:22:44:  20000000 
+INFO  @ Thu, 23 Sep 2021 01:22:46:  21000000 
+INFO  @ Thu, 23 Sep 2021 01:22:49:  22000000 
+INFO  @ Thu, 23 Sep 2021 01:22:52:  23000000 
+INFO  @ Thu, 23 Sep 2021 01:22:54:  24000000 
+INFO  @ Thu, 23 Sep 2021 01:22:57:  25000000 
+INFO  @ Thu, 23 Sep 2021 01:22:59:  26000000 
+INFO  @ Thu, 23 Sep 2021 01:23:02:  27000000 
+INFO  @ Thu, 23 Sep 2021 01:23:05:  28000000 
+INFO  @ Thu, 23 Sep 2021 01:23:07:  29000000 
+INFO  @ Thu, 23 Sep 2021 01:23:10:  30000000 
+INFO  @ Thu, 23 Sep 2021 01:23:12:  31000000 
+INFO  @ Thu, 23 Sep 2021 01:23:15:  32000000 
+INFO  @ Thu, 23 Sep 2021 01:23:17:  33000000 
+INFO  @ Thu, 23 Sep 2021 01:23:20:  34000000 
+INFO  @ Thu, 23 Sep 2021 01:23:22:  35000000 
+INFO  @ Thu, 23 Sep 2021 01:23:24:  36000000 
+INFO  @ Thu, 23 Sep 2021 01:23:26: 36646939 reads have been read. 
+INFO  @ Thu, 23 Sep 2021 01:23:27: #1.2 read input tags... 
+INFO  @ Thu, 23 Sep 2021 01:23:29:  1000000 
+INFO  @ Thu, 23 Sep 2021 01:23:32:  2000000 
+INFO  @ Thu, 23 Sep 2021 01:23:35:  3000000 
+INFO  @ Thu, 23 Sep 2021 01:23:38:  4000000 
+INFO  @ Thu, 23 Sep 2021 01:23:40:  5000000 
+INFO  @ Thu, 23 Sep 2021 01:23:42:  6000000 
+INFO  @ Thu, 23 Sep 2021 01:23:43: 6618931 reads have been read. 
+INFO  @ Thu, 23 Sep 2021 01:23:43: #1 tag size is determined as 59 bps 
+INFO  @ Thu, 23 Sep 2021 01:23:43: #1 tag size = 59.0 
+INFO  @ Thu, 23 Sep 2021 01:23:43: #1  total tags in treatment: 36646939 
+INFO  @ Thu, 23 Sep 2021 01:23:43: #1 user defined the maximum tags... 
+INFO  @ Thu, 23 Sep 2021 01:23:43: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Thu, 23 Sep 2021 01:23:43: #1  tags after filtering in treatment: 12588492 
+INFO  @ Thu, 23 Sep 2021 01:23:43: #1  Redundant rate of treatment: 0.66 
+INFO  @ Thu, 23 Sep 2021 01:23:43: #1  total tags in control: 6618931 
+INFO  @ Thu, 23 Sep 2021 01:23:43: #1 user defined the maximum tags... 
+INFO  @ Thu, 23 Sep 2021 01:23:43: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Thu, 23 Sep 2021 01:23:43: #1  tags after filtering in control: 2933099 
+INFO  @ Thu, 23 Sep 2021 01:23:43: #1  Redundant rate of control: 0.56 
+INFO  @ Thu, 23 Sep 2021 01:23:43: #1 finished! 
+INFO  @ Thu, 23 Sep 2021 01:23:43: #2 Build Peak Model... 
+INFO  @ Thu, 23 Sep 2021 01:23:43: #2 looking for paired plus/minus strand peaks... 
+INFO  @ Thu, 23 Sep 2021 01:23:47: #2 number of paired peaks: 18904 
+INFO  @ Thu, 23 Sep 2021 01:23:47: start model_add_line... 
+INFO  @ Thu, 23 Sep 2021 01:23:51: start X-correlation... 
+INFO  @ Thu, 23 Sep 2021 01:23:51: end of X-cor 
+INFO  @ Thu, 23 Sep 2021 01:23:51: #2 finished! 
+INFO  @ Thu, 23 Sep 2021 01:23:51: #2 predicted fragment length is 170 bps 
+INFO  @ Thu, 23 Sep 2021 01:23:51: #2 alternative fragment length(s) may be 170 bps 
+INFO  @ Thu, 23 Sep 2021 01:23:51: #2.2 Generate R script for model : macs2/macs_SRR500628_SRR500630_Hot1IP_mockIP_YEPD_model.r 
+INFO  @ Thu, 23 Sep 2021 01:23:51: #3 Call peaks... 
+INFO  @ Thu, 23 Sep 2021 01:23:51: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Thu, 23 Sep 2021 01:24:04: #3 Call peaks for each chromosome... 
+INFO  @ Thu, 23 Sep 2021 01:24:07: #4 Write output xls file... macs2/macs_SRR500628_SRR500630_Hot1IP_mockIP_YEPD_peaks.xls 
+INFO  @ Thu, 23 Sep 2021 01:24:07: #4 Write peak in narrowPeak format file... macs2/macs_SRR500628_SRR500630_Hot1IP_mockIP_YEPD_peaks.narrowPeak 
+INFO  @ Thu, 23 Sep 2021 01:24:07: #4 Write summits bed file... macs2/macs_SRR500628_SRR500630_Hot1IP_mockIP_YEPD_summits.bed 
+INFO  @ Thu, 23 Sep 2021 01:24:07: Done! 
